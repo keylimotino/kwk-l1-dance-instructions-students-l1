@@ -7,7 +7,7 @@ end
 def base_work
   puts "Lift right foot."
   puts "Return right foot to the ground."
-  puts "Finishing with a #{small_skip-step} backward"
+  puts "Finishing with a skip_step_left and skip_step_right backward"
 end
 
 def skip_step_left
@@ -22,9 +22,8 @@ def skip_step_right
   puts "Right, Left, Right and Right"
 end
 
-puts "Let's dance!"
 assume_proper_stance
 base_work
 skip_step_left
 skip_step_right
-puts "You got it!"
+
