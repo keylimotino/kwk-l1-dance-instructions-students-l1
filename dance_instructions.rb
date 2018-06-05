@@ -2,7 +2,7 @@
 # Code your methods below
 def assume_proper_stance
   puts "Plant legs far apart, bend knees slightly and keep posture loose."
-end 
+end
 
 def base_work
   puts "Lift right foot."
@@ -20,7 +20,7 @@ def skip_step_right
   puts "Lower right foot to the ground"
   puts "Bounce right foot back up slightly, kicking it a few inches back"
   puts "Right, Left, Right and Right"
-end 
+end
 
 puts "Let's dance!"
 assume_proper_stance
